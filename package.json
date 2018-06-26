@@ -1,0 +1,37 @@
+{
+  "name": "weather-website-using-node-express",
+  "version": "1.0.0",
+  "description": "Simple weather website using node and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyrierose/weather-website-using-node-express.git"
+  },
+  "keywords": [
+    "weather",
+    "git",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Akshit Dhar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyrierose/weather-website-using-node-express/issues"
+  },
+  "homepage": "https://github.com/kyrierose/weather-website-using-node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "request": "^2.87.0",
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0"
+  }
+}
