@@ -23,7 +23,7 @@ app.post('/', function (req, res) {
     } else {
       let weather = JSON.parse(body)
       if(weather.main == undefined){
-        res.render('index', {weather: null, error: 'Error, please try again'});
+        res.render('404');
       } else {
         let weatherText = `It's ${weather.main.temp} degrees in ${weather.name}!`;
         res.render('index', {weather: weatherText, error: null});
@@ -32,6 +32,6 @@ app.post('/', function (req, res) {
   });
 })
 
-app.listen(3000, function () {
-  console.log('Listening on port 3000!')
+app.listen(3001, function () {
+  console.log('Listening on port 3001!')
 })

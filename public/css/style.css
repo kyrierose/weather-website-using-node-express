@@ -67,3 +67,8 @@ body {
   p {
     color: #E64A19;
   }
+body .pnf{
+    color: #E64A19;
+    text-align: center;
+    font-size: 25px;
+}
